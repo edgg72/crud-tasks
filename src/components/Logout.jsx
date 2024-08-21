@@ -17,7 +17,7 @@ const LogoutButton = () => {
   };
 
   return (
-    <button className='underline font-bold' onClick={handleLogout}>
+    <button className='underline font-bold mb-4' onClick={handleLogout}>
       Logout
     </button>
   );
