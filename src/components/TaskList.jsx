@@ -49,8 +49,8 @@ const TaskList = () => {
 
   return (
     <div>
-      <h1 className='mb-4 font-bold'>Task List</h1>
       <AddTask />
+      <h1 className='mb-4 font-bold'>Task List</h1>
       <ul>
         {tasks && tasks.length > 0 ? (
           
