@@ -13,13 +13,13 @@ const AuthPage = () => {
           onClick={() => setIsLogin(true)}
           className={`${isLogin ? "hidden" : "mb-8 underline font-bold"}`}
         >
-          Login
+          Login instead here
         </button>
         <button
           onClick={() => setIsLogin(false)}
           className={`${!isLogin ? "hidden" : "mb-8 underline font-bold"}`}
         >
-          Register
+          Register instead here
         </button>
       </div>
       <div className="form-container">
